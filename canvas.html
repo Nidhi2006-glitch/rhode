@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset= "UTF-8"/>
+  <title> Lets start with graphics</title>
+</head>
+<body>
+    <h1>Simple canvas examples</h1>
+    <canvas id = "canvas"
+    width="100"height="100"
+    style="border: 1px solid black;" Congradulations you have successfully created a canvas element!>
+    <script type = "text/javascript">
+        window.onload= function()
+        {
+            var canvas=document.getElementById("canvas");
+            let ctx=canvas.getContext("2d");
+            ctx.fillStyle="#FF0000";
+            ctx.fillRect(0,0,80,80);
+            ctx.strokeRect(10,10,150,50);
+            ctx.strokestyle="blue";
+        }
+        </script>
+
+    </body>
+    </html>
+    
